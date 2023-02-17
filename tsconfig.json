@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "CommonJS",
+      "types": [
+          "node",
+          "@wdio/globals/types",
+          "expect-webdriverio",
+          "@wdio/mocha-framework",
+          "@wdio/cucumber-framework"
+      ],
+      "target": "ESNext"
+  }
+}
